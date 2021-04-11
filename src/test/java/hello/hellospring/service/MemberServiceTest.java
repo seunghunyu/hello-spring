@@ -52,6 +52,7 @@ class MemberServiceTest {
 
         
         /*
+        이미존재하는지 확인
         try {
             memberService.join(member2);
             fail();
